@@ -1,0 +1,11 @@
+{
+  "mongo": {
+    "uri": "mongodb://localhost:27017",
+    "database": "reporting",
+    "collection": "bitcoin_trades"
+  },
+  "csv": {
+    "path": "data/input/btcusd_1-min_data.csv",
+    "batch_size": 1000
+  }
+}
